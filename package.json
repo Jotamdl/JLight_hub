@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "SET NODE_ENV=development&& nodemon .\\Back\\index.js",
+    "dev": "set NODE_ENV=development&& nodemon .\\Back\\index.js",
     "build": "npm install && npm install --prefix Front && npm run build --prefix Front",
-    "start": "SET NODE_ENV=production&& node Back/index.js"
+    "start": "set NODE_ENV=production&& node Back/index.js"
   },
   "type": "module",
   "repository": {
